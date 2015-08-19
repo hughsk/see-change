@@ -1,0 +1,39 @@
+{
+  "name": "see-change",
+  "version": "1.0.0",
+  "description": "Detect changes in the return values of a list of functions",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel-node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "es6-symbol": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/see-change.git"
+  },
+  "keywords": [
+    "utility",
+    "see",
+    "change",
+    "return",
+    "function",
+    "values"
+  ],
+  "homepage": "https://github.com/hughsk/see-change",
+  "bugs": {
+    "url": "https://github.com/hughsk/see-change/issues"
+  }
+}
